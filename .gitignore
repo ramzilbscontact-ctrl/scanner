@@ -1,10 +1,21 @@
-agenzia-scan
-agenzia-scan.exe
-agenzia-report.json
-agenzia-report.pdf
-dist/
+# Compiled binary at repo root (not cmd/agenzia-scan/ source dir)
+/agenzia-scan
+/agenzia-scan.exe
+
+# Scan reports
+/agenzia-report.json
+/agenzia-report.pdf
+
+# Goreleaser build output
+/dist/
+
+# Logs
 *.log
+
+# OS + IDE
 .DS_Store
 .vscode/
 .idea/
+
+# Go coverage
 coverage.out
