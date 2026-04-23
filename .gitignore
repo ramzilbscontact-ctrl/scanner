@@ -1,0 +1,10 @@
+agenzia-scan
+agenzia-scan.exe
+agenzia-report.json
+agenzia-report.pdf
+dist/
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage.out
