@@ -2,7 +2,7 @@
 # Usage: iwr -useb https://agenzia.uk/scanner/install.ps1 | iex
 
 $ErrorActionPreference = 'Stop'
-$Repo = 'agenzia/scanner'
+$Repo = 'getagenzia/scanner'
 $Version = if ($env:AGENZIA_VERSION) { $env:AGENZIA_VERSION } else { 'latest' }
 
 function Info($msg) { Write-Host "i " -ForegroundColor Cyan -NoNewline; Write-Host $msg }

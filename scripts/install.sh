@@ -3,7 +3,7 @@
 # Usage: curl -sSL https://agenzia.uk/scanner/install.sh | sh
 set -eu
 
-REPO="agenzia/scanner"
+REPO="getagenzia/scanner"
 VERSION="${AGENZIA_VERSION:-latest}"
 
 color() { printf '\033[%sm%s\033[0m' "$1" "$2"; }

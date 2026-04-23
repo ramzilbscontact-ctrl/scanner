@@ -5,8 +5,8 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8.svg)](https://go.dev/)
-[![Build](https://github.com/agenzia/scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/agenzia/scanner/actions)
-[![Release](https://img.shields.io/github/v/release/agenzia/scanner)](https://github.com/agenzia/scanner/releases)
+[![Build](https://github.com/getagenzia/scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/getagenzia/scanner/actions)
+[![Release](https://img.shields.io/github/v/release/getagenzia/scanner)](https://github.com/getagenzia/scanner/releases)
 
 ---
 
@@ -20,7 +20,7 @@ curl -sSL https://agenzia.uk/scanner/install.sh | sh
 iwr -useb https://agenzia.uk/scanner/install.ps1 | iex
 
 # Or download the binary
-# https://github.com/agenzia/scanner/releases/latest
+# https://github.com/getagenzia/scanner/releases/latest
 ```
 
 Then:
@@ -162,12 +162,12 @@ iwr -useb https://agenzia.uk/scanner/install.ps1 | iex
 
 ### Option 2 — Download binary
 
-Grab the latest release: https://github.com/agenzia/scanner/releases/latest
+Grab the latest release: https://github.com/getagenzia/scanner/releases/latest
 
 ### Option 3 — From source
 
 ```bash
-git clone https://github.com/agenzia/scanner.git
+git clone https://github.com/getagenzia/scanner.git
 cd scanner
 go build -o agenzia-scan ./cmd/agenzia-scan
 ./agenzia-scan
@@ -176,7 +176,7 @@ go build -o agenzia-scan ./cmd/agenzia-scan
 ### Option 4 — Docker
 
 ```bash
-docker run --rm -v /:/host:ro agenzia/scanner:latest
+docker run --rm -v /:/host:ro ghcr.io/getagenzia/scanner:latest
 ```
 
 ---
@@ -281,7 +281,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ### 🎯 Good first issues
 
-Check [issues labeled `good first issue`](https://github.com/agenzia/scanner/labels/good%20first%20issue) — we've curated 15+ beginner-friendly tasks.
+Check [issues labeled `good first issue`](https://github.com/getagenzia/scanner/labels/good%20first%20issue) — we've curated 15+ beginner-friendly tasks.
 
 ---
 

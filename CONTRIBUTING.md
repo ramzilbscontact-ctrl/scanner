@@ -12,7 +12,7 @@ PMEs safer.
 
 ### 1. Report a bug
 
-Found something broken? [Open an issue](https://github.com/agenzia/scanner/issues/new?labels=bug).
+Found something broken? [Open an issue](https://github.com/getagenzia/scanner/issues/new?labels=bug).
 
 Include:
 - Your OS + version
@@ -22,7 +22,7 @@ Include:
 
 ### 2. Suggest a new NIS2 check
 
-Have an idea for a check that would help PMEs? [Open a feature request](https://github.com/agenzia/scanner/issues/new?labels=enhancement).
+Have an idea for a check that would help PMEs? [Open a feature request](https://github.com/getagenzia/scanner/issues/new?labels=enhancement).
 
 Describe:
 - Which NIS2 measure it relates to (Article 21, measures 1-10)
@@ -31,7 +31,7 @@ Describe:
 
 ### 3. Write code
 
-Grab a [good first issue](https://github.com/agenzia/scanner/labels/good%20first%20issue) or propose your own.
+Grab a [good first issue](https://github.com/getagenzia/scanner/labels/good%20first%20issue) or propose your own.
 
 ---
 
