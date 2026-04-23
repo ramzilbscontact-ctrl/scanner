@@ -1,5 +1,5 @@
 # Agenzia Scanner — one-line installer for Windows
-# Usage: iwr -useb https://agenzia.uk/scanner/install.ps1 | iex
+# Usage: iwr -useb https://api.getagenzia.fr/scanner/install.ps1 | iex
 
 $ErrorActionPreference = 'Stop'
 $Repo = 'getagenzia/scanner'

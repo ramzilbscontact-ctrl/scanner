@@ -14,10 +14,10 @@
 
 ```bash
 # macOS / Linux
-curl -sSL https://agenzia.uk/scanner/install.sh | sh
+curl -sSL https://api.getagenzia.fr/scanner/install.sh | sh
 
 # Windows PowerShell
-iwr -useb https://agenzia.uk/scanner/install.ps1 | iex
+iwr -useb https://api.getagenzia.fr/scanner/install.ps1 | iex
 
 # Or download the binary
 # https://github.com/getagenzia/scanner/releases/latest
@@ -152,12 +152,12 @@ Each measure has **10–30 technical checks** that run automatically.
 
 **macOS / Linux**:
 ```bash
-curl -sSL https://agenzia.uk/scanner/install.sh | sh
+curl -sSL https://api.getagenzia.fr/scanner/install.sh | sh
 ```
 
 **Windows PowerShell**:
 ```powershell
-iwr -useb https://agenzia.uk/scanner/install.ps1 | iex
+iwr -useb https://api.getagenzia.fr/scanner/install.ps1 | iex
 ```
 
 ### Option 2 — Download binary

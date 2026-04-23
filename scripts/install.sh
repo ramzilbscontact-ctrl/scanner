@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Agenzia Scanner — one-line installer for macOS / Linux
-# Usage: curl -sSL https://agenzia.uk/scanner/install.sh | sh
+# Usage: curl -sSL https://api.getagenzia.fr/scanner/install.sh | sh
 set -eu
 
 REPO="getagenzia/scanner"
