@@ -2,7 +2,7 @@
 # Usage: iwr -useb https://api.getagenzia.fr/scanner/install.ps1 | iex
 
 $ErrorActionPreference = 'Stop'
-$Repo = 'getagenzia/scanner'
+$Repo = 'ramzilbscontact-ctrl/scanner'
 $Version = if ($env:AGENZIA_VERSION) { $env:AGENZIA_VERSION } else { 'latest' }
 
 function Info($msg) { Write-Host "i " -ForegroundColor Cyan -NoNewline; Write-Host $msg }

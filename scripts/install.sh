@@ -3,7 +3,7 @@
 # Usage: curl -sSL https://api.getagenzia.fr/scanner/install.sh | sh
 set -eu
 
-REPO="getagenzia/scanner"
+REPO="ramzilbscontact-ctrl/scanner"
 VERSION="${AGENZIA_VERSION:-latest}"
 
 color() { printf '\033[%sm%s\033[0m' "$1" "$2"; }
